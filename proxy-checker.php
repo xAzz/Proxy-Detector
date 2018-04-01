@@ -87,11 +87,11 @@ if(!empty($checkip)) {
 		echo "An unrecognized response was returned.";
 	}
 } else {
-	header('Location: http://wair.io/proxy/');
+	header('Location: /proxy/');
 }
 
 if (!ctype_digit($checkip)) {
-	header('Location: http://wair.io/proxy/');
+	header('Location: /proxy/');
 }
 
 ?>
